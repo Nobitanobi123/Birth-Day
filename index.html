@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthy Shreya</title>
+
+
+
+    <style>
+        .hero {
+  background-image: url("	https://ebac-event.vercel.app/wall2.b7ead261.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 64px;
+  padding-bottom: 100px;
+}
+
+.hero__container {
+  display: flex;
+}
+
+.hero__description {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 26px;
+}
+
+.hero__description span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero__text {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  font-size: 26px;
+}
+
+.hero__logo {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .hero__container {
+    display: block;
+  }
+
+  .hero__logo {
+    width: 100%;
+  }
+
+  .hero__text {
+    margin-top: 0.5rem !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .hero__container {
+    display: block;
+  }
+
+  .hero__logo {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .hero__description {
+    margin-bottom: 50px;
+    padding-top: 0;
+  }
+
+  .hero__text {
+    margin-top: 0;
+  }
+}
+
+.info-bar {
+  color: #000;
+  background-color: #fff;
+  border-radius: 20px;
+  justify-content: space-between;
+  padding: 16px 24px;
+  display: flex;
+}
+
+.info-bar__infos {
+  gap: 50px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.info-bar__infos__item {
+  font-size: 20px;
+}
+
+.info-bar__infos__item b {
+  padding-bottom: 10px;
+  font-size: 22px;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .info-bar {
+    margin: 50px 10px 0;
+    display: block;
+  }
+
+  .info-bar__infos {
+    display: block;
+  }
+
+  .info-bar__infos__item {
+    margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .info-bar button {
+    margin-left: 20px;
+  }
+}
+
+.button {
+  width: 15rem;
+  white-space: nowrap;
+  color: #fff;
+  background-color: #f09;
+  border: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 20px;
+  display: block;
+}
+
+.button:hover {
+  background-color: #f77ec6;
+}
+
+@media (max-width: 640px) {
+  .button {
+    width: 100%;
+    display: block;
+  }
+}
+
+.event {
+  margin-bottom: 5rem;
+}
+
+.event--image-left .container {
+  flex-direction: row-reverse;
+}
+
+.event--image-left .event__details {
+  border-left: none;
+  border-right: 2px solid #f09;
+}
+
+.event .container {
+  gap: 40px;
+  display: flex !important;
+}
+
+.event__details {
+  border-left: 2px solid #f09;
+  padding-left: 20px;
+}
+
+.event__details__title {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.event__details__description {
+  font-size: 22px;
+}
+
+.event__details__image {
+  width: 40%;
+}
+
+@media (max-width: 640px) {
+  .event .container {
+    display: block !important;
+  }
+
+  .event__details {
+    border-left: none;
+    margin-bottom: 16px;
+  }
+
+  .event__details__image {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .event--image-left .event__details {
+    border-right: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@font-face {
+  font-family: sst;
+  src: url("../SSTLight.2958540d.TTF");
+  font-weight: 100;
+  color: #fff;
+}
+
+body {
+  color: #fff;
+  background-color: #000;
+  font-family: sst;
+}
+
+.title {
+  color: #f09;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+  }
+}
+a{
+    text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
+
+    </style>
+
+
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+          <div class="hero__container">
+            
+            <div class="hero__description">
+    
+                <h1>Happy Birthday Shreya</h1>
+              <p class="hero__text">
+                makes the day special for her
+              </p>
+      
+              <span id="count"></span>
+            </div>
+      
+          </div>
+      
+          <div class="info-bar">
+            <ul class="info-bar__infos">
+              <li class="info-bar__infos__item">
+                <b class="title">Name</b>
+                Shreya Pramanik
+              </li>
+              <li class="info-bar__infos__item">
+                <b class="title">DOB</b>
+                18/06/2004
+              </li>
+              <li class="info-bar__infos__item">
+                <b class="title">Devloper</b>
+                Sourav Barik
+              </li>
+            </ul>
+
+            <a href="https://api.whatsapp.com/send/?phone=919883538030&text&type=phone_number&app_absent=0">
+                <button type="button" class="button" hr>Let's Wish</button>
+            </a>
+            
+      
+          </div>
+      
+        </div>
+      </header>
+      
+      <section class="event">
+        <div class="container" data-aos="fade-right">
+          <div class="event__details">
+            <h2 class="event__details__title title">Childhood </h2>
+      
+            <p class="event__details__description">
+                In a world so vast and wide, A special child’s joy we can’t hide. With laughter, love, and fun so big, Happy Birthday to the wonderful kid!
+
+Celebrate with cake and cheer, For your special day is finally here!
+            </p>
+          </div>
+      
+          <img class="event__details__image" src="./WhatsApp Image 2024-06-18 at 1.27.46 AM (1).jpeg"
+      " alt="cake">
+        </div>
+      </section>
+      
+      <section class="event event--image-left ">
+        <div class="container" data-aos="fade-left">
+          <div class="event__details">
+            <h2 class="event__details__title title">Teenage</h2>
+      
+            <p class="event__details__description">
+                A teen so bold, with dreams so bright, Steps into their future, shining light. With each year, you grow more keen, Happy Birthday to the coolest teen!
+
+                May your day be filled with fun, A new chapter of life has just begun!
+            </p>
+          </div>
+      
+          <img class="event__details__image" src="./WhatsApp Image 2024-06-18 at 1.27.15 AM.jpeg" alt="cake">
+        </div>
+      </section>
+      
+      <section class="event">
+        <div class="container" data-aos="fade-right">
+          <div class="event__details">
+            <h2 class="event__details__title title">Adult</h2>
+      
+            <p class="event__details__description">
+                Wisdom gained and memories treasured, Life’s moments, too many to be measured. On this day, let joy take flight, Happy Birthday, may your year be bright!
+
+                Embrace the laughter and the new, Cheers to you and the journey too!
+            </p>
+          </div>
+      
+          <img class="event__details__image" src="./WhatsApp Image 2024-06-18 at 1.27.46 AM.jpeg" alt="cake">
+        </div>
+      </section>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script src="scripts/main.js"></script>
+
+
+      <script>
+        AOS.init();
+
+const eventDay = new Date("June 18, 2024 24:00:00");
+const timeStampEvent = eventDay.getTime();
+
+
+
+const timeCount = setInterval(function(){
+    const day = 1000 * 60 * 60 * 24;
+    const hour = 1000 * 60 * 60;
+    const minute = 1000 * 60;
+    
+    const now = new Date();
+    const timeStampActual = now.getTime();
+
+    const deltaDistanceEvent = timeStampEvent - timeStampActual;
+
+    const deltaDayEvent = Math.floor(deltaDistanceEvent / day);
+
+    const deltaTimeEvent = Math.floor((deltaDistanceEvent % day) / hour);
+
+    const deltaMinuteEvent = Math.floor((deltaDistanceEvent % hour) / minute);
+
+    const deltaSecondEvent = Math.floor((deltaDistanceEvent % minute) / 1000);
+   
+    document.getElementById('count').innerHTML = `${deltaDayEvent}d ${deltaTimeEvent}h ${deltaMinuteEvent}m ${deltaSecondEvent}s`;
+
+    if (deltaDistanceEvent < 0){
+        clearInterval(timeCount);
+
+        document.getElementById('count').innerHTML = `Evento expirado!`;
+    }
+}, 1000);
+      </script>
+</body>
+</html>
+
+
